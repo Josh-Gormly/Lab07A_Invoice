@@ -1,5 +1,8 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+public class InvoiceRunner
+{
+    public static void main(String[] args)
+    {
+        InvoiceFrame frame = new InvoiceFrame();
+        frame.setVisible(true);
     }
 }
